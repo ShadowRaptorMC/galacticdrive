@@ -1,0 +1,35 @@
+// ===================================================================
+// This is a template for a Pillar structure
+// Do not include these lines in your file
+// The _template.json file is ignored so don't worry about it
+// ===================================================================
+
+{
+	"generatorType": "SURFACE",
+	"minY": -1,
+	"maxY": -1,
+	"offsetX": 0,
+	"offsetY": -3,
+	"offsetZ": 0,
+
+	"mirrorType": "FRONT_BACK",
+	"rotation": null,
+	"ignoreEntities": true,
+
+	"dimensionSpawns": [1],
+	"biomeNameSpawns": [],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 0.80,
+	"decay": 0,
+
+	"filling": "minecraft:end_stone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 200
+}

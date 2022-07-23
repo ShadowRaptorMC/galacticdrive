@@ -1,0 +1,37 @@
+{
+	"dependencies": ["thermalfoundation","biomesoplenty"],
+	"populate": {
+		"mud_balls": {
+			"enabled": "true",
+			"distribution": "underwater",
+			"generator": {
+				"type": "boulder",
+				"block": "biomesoplenty:mud",
+				"material": ["minecraft:dirt","minecraft:grass","minecraft:sand","minecraft:gravel","biomesoplenty:mud","biomesoplenty:log_1"],
+				"diameter": 2,
+				"size-variance": 2,
+				"count": 1
+			},
+			"cluster-count": 250,
+			"chunk-chance": 1,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:mangrove"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					110
+				]
+			}
+		}
+	}
+}

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDawon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDawon",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -38,17 +38,17 @@
   "width": 1.6,
   "height": 1.4,
   "experience": 5,
-  "health": 15,
-  "defense": 1,
+  "health": 35,
+  "defense": 2,
   "armor": 0,
-  "speed": 26,
-  "damage": 1,
+  "speed": 32,
+  "damage": 2,
   "attackSpeed": 2,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
+  "sight": 32,
   "knockbackResistance": 0,
   "bagSize": 5,
   "tamingReputation": 500,
@@ -81,7 +81,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
@@ -113,6 +113,6 @@
       "subspecies": 2
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2
 }

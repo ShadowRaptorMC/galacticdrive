@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySpectre",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSpectre",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -34,17 +34,17 @@
   "width": 0.8,
   "height": 1.6,
   "experience": 15,
-  "health": 30,
+  "health": 60,
   "defense": 0,
   "armor": 0,
   "speed": 32,
-  "damage": 3,
-  "attackSpeed": 1,
+  "damage": 4,
+  "attackSpeed": 2,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
+  "sight": 32,
   "knockbackResistance": 1,
   "bagSize": 5,
   "eggBackColor": "#4f0095",
@@ -105,6 +105,6 @@
       "chance": 0.25
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2
 }

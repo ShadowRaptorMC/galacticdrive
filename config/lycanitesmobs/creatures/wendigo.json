@@ -7,7 +7,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWendigo",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWendigo",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -43,17 +43,17 @@
   "width": 1.0,
   "height": 4.5,
   "experience": 15,
-  "health": 40,
+  "health": 80,
   "defense": 3,
   "armor": 0,
   "speed": 28,
-  "damage": 2,
+  "damage": 8,
   "attackSpeed": 1,
-  "rangedSpeed": 0.25,
-  "effectDuration": 5,
+  "rangedSpeed": 0.75,
+  "effectDuration": 8,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
+  "sight": 28,
   "knockbackResistance": 1,
   "bagSize": 5,
   "eggBackColor": "#CCCCFF",
@@ -112,6 +112,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2
 }

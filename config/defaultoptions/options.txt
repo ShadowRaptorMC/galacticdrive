@@ -15,8 +15,8 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:[]
-incompatibleResourcePacks:[]
+resourcePacks:["Lycanites Redux - v8.0.0.zip"]
+incompatibleResourcePacks:["Lycanites Redux - v8.0.0.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0

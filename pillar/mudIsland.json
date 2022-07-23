@@ -1,0 +1,35 @@
+// ===================================================================
+// This is a template for a Pillar structure
+// Do not include these lines in your file
+// The _template.json file is ignored so don't worry about it
+// ===================================================================
+
+{
+	"generatorType": "UNDERWATER",
+	"minY": 0,
+	"maxY": 90,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "LEFT_RIGHT",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [110],
+	"biomeNameSpawns": ["biomesoplenty:mangrove"],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 0.82,
+	"decay": 0,
+
+	"filling": "biomesoplenty:mud",
+	"fillingMetadata": 0,
+	"fillingType": "WATER",
+	
+	"rarity": 2
+}

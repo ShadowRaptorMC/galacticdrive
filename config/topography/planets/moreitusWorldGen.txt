@@ -55,7 +55,7 @@ addHills(["biomesoplenty:bamboo_forest"], "biomesoplenty:overgrown_cliffs")
 addHills(["biomesoplenty:bayou"], "biomesoplenty:mangrove")
 
 // Sets River biome of the added Land biomes
-setRiver(["biomesoplenty:bayou","biomesoplenty:bayou_mangrove","biomesoplenty:bamboo_forest","biomesoplenty:overgrown_cliffs"], "minecraft:river")
+setRiver(["biomesoplenty:bayou","biomesoplenty:mangrove","biomesoplenty:bamboo_forest","biomesoplenty:overgrown_cliffs"], "minecraft:river")
 
 // Add Ocean biomes to the dimension
 addOceanBiomes("biomesoplenty:kelp_forest", 15)
