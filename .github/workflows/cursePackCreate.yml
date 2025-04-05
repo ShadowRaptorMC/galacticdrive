@@ -72,7 +72,7 @@ jobs:
       run: mv manifest.json cursePack/manifest.json
 
     # Upload cursePack directory as archive/artifact
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
        name: GalacticDrive-development
        path: cursePack
@@ -95,7 +95,7 @@ jobs:
       run: mv server_files/* serverPack/
 
     # Upload serverPack dirctory as archive/artifact
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
        name: GalacticDrive-development-server
        path: serverPack
