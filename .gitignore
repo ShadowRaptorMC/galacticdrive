@@ -8,6 +8,9 @@ minecraftinstance.json
 /natives
 config*.json
 
+# Prism Launcher Files
+icon.png
+
 # IDEA
 /.idea
 
