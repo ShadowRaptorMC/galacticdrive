@@ -547,10 +547,24 @@
             "required": true
         },
         {
-            "alias": "Custom Main Menu (CustomMainMenu-MC1.12.2-2.0.9.1.jar)",
-            "fileID": 2857869,
-            "projectID": 226406,
-            "downloadUrl": "https://media.forgecdn.net/files/2857/869/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+            "alias": "MixinBootstrap (_MixinBootstrap-1.1.0.jar)",
+            "fileID": 3437402,
+            "projectID": 357178,
+            "downloadUrl": "https://edge.forgecdn.net/files/3437/402/_MixinBootstrap-1.1.0.jar",
+            "required": true
+        },
+        {
+            "alias": "Konkrete [Forge/NeoForge] (konkrete_forge_1.6.1_MC_1.12-1.12.2.jar)",
+            "fileID": 4514895,
+            "projectID": 410295,
+            "downloadUrl": "https://edge.forgecdn.net/files/4514/895/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+            "required": true
+        },
+        {
+            "alias": "FancyMenu (fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar)",
+            "fileID": 4655936,
+            "projectID": 367706,
+            "downloadUrl": "https://edge.forgecdn.net/files/4655/936/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
             "required": true
         },
         {
@@ -886,13 +900,6 @@
             "fileID": 3330308,
             "projectID": 237903,
             "downloadUrl": "https://media.forgecdn.net/files/3330/308/RebornCore-1.12.2-3.19.5-universal.jar",
-            "required": true
-        },
-        {
-            "alias": "Main Menu Scale (MainMenuScale-1.3.2.jar)",
-            "fileID": 2683258,
-            "projectID": 310375,
-            "downloadUrl": "https://media.forgecdn.net/files/2683/258/MainMenuScale-1.3.2.jar",
             "required": true
         },
         {
