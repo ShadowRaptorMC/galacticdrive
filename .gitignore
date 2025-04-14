@@ -40,6 +40,9 @@ config/jei/bookmarks.ini
 config/jei/lookupHistory.zip
 config/littletiles-client.json
 config/oauth.cfg
+config/fancymenu/user_variables.db
+config/fancymenu/menu_identifiers.db
+fancymenu_data/last_world.fmdata
 BotaniaVars.dat
 crafttweaker.log
 knownkeys.txt
