@@ -148,13 +148,13 @@
     "mobs": [
       {
         "mob": "srparasites:ada_summoner",
-        "weight": 13,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "srparasites:overseer",
-        "weight": 10,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -167,19 +167,19 @@
     "mobs": [
       {
         "mob": "srparasites:crux",
-        "weight": 5,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "srparasites:heed",
-        "weight": 5,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "srparasites:ada_yelloweye",
-        "weight": 8,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -251,13 +251,13 @@
     "mobs": [
       {
         "mob": "srparasites:vigilante",
-        "weight": 4,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "srparasites:ada_manducater",
-        "weight": 6,
+        "weight": 1,
         "groupcountmin": 2,
         "groupcountmax": 4
       }
@@ -305,13 +305,13 @@
     "mobs": [
       {
         "mob": "srparasites:ada_reeker",
-        "weight": 5,
+        "weight": 1,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "srparasites:ada_longarms",
-        "weight": 8,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -377,13 +377,13 @@
       },
       {
         "mob": "srparasites:marauder",
-        "weight": 6,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "srparasites:ada_yelloweye",
-        "weight": 8,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -438,13 +438,13 @@
     "mobs": [
       {
         "mob": "srparasites:ada_reeker",
-        "weight": 8,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "srparasites:warden",
-        "weight": 8,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -487,7 +487,7 @@
     "mobs": [
       {
         "mob": "srparasites:ada_arachnida",
-        "weight": 8,
+        "weight": 1,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
