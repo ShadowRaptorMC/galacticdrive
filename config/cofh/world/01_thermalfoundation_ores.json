@@ -63,7 +63,7 @@
 						"properties": {
 							"type": "silver"
 						},
-						"weight": 80
+						"weight": 160
 					}
 				],
 				"material": "atum:limestone",
@@ -91,7 +91,7 @@
 						"properties": {
 							"type": "lead"
 						},
-						"weight": 90
+						"weight": 160
 					}
 				],
 				"material": "minecraft:stone",

@@ -229,9 +229,9 @@ recipes.addShapedMirrored("Pump",
 // * WarpDrive Air Canister Recipe
 recipes.addShapedMirrored("Empty Air Canister", 
 <warpdrive:component:11>, 
-[[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>],
+[[<minecraft:iron_bars>, <ore:blockWool>, <minecraft:iron_bars>],
 [<techguns:itemshared:56>, <warpdrive:component:14>, <techguns:itemshared:56>], 
-[<minecraft:iron_bars>, <minecraft:wool>, <minecraft:iron_bars>]]);
+[<minecraft:iron_bars>, <ore:blockWool>, <minecraft:iron_bars>]]);
 
 // * String from root and Green Dye Smelt recipes
 recipes.addShapeless("Make String", <minecraft:string>, [<biomesoplenty:plant_1:9>]);

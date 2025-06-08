@@ -1,718 +1,850 @@
 {
-    "author": "Zediious",
+    "author": "ShadowRaptorMC",
     "files": [
+        {
+            "alias": "Lycanites Redux (Resource Pack) (Lycanites Redux - v8.0.0.zip)",
+            "fileID": 3820692,
+            "projectID": 362705,
+            "required": true
+        },
         {
             "alias": "AE2 Stuff (ae2stuff-0.7.0.4-mc1.12.2.jar)",
             "fileID": 2491032,
             "projectID": 225194,
+            "downloadUrl": "https://edge.forgecdn.net/files/2491/032/ae2stuff-0.7.0.4-mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "AI Improvements (AIImprovements-1.12-0.0.1b3.jar)",
             "fileID": 2450734,
             "projectID": 233019,
+            "downloadUrl": "https://edge.forgecdn.net/files/2450/734/AIImprovements-1.12-0.0.1b3.jar",
             "required": true
         },
         {
             "alias": "Applied Energistics 2 (appliedenergistics2-rv6-stable-7.jar)",
             "fileID": 2747063,
             "projectID": 223794,
+            "downloadUrl": "https://edge.forgecdn.net/files/2747/063/appliedenergistics2-rv6-stable-7.jar",
             "required": true
         },
         {
             "alias": "Baubles (Baubles-1.12-1.5.2.jar)",
             "fileID": 2518667,
             "projectID": 227083,
+            "downloadUrl": "https://edge.forgecdn.net/files/2518/667/Baubles-1.12-1.5.2.jar",
             "required": true
         },
         {
             "alias": "Baubley Heart Canisters (baubley-heart-canisters-1.12.2-2.0.3.jar)",
             "fileID": 2721067,
             "projectID": 282947,
+            "downloadUrl": "https://edge.forgecdn.net/files/2721/067/baubley-heart-canisters-1.12.2-2.0.3.jar",
             "required": true
         },
         {
             "alias": "BetterFps (BetterFps-1.4.8.jar)",
             "fileID": 2483393,
             "projectID": 229876,
+            "downloadUrl": "https://edge.forgecdn.net/files/2483/393/BetterFps-1.4.8.jar",
             "required": true
         },
         {
             "alias": "Blockcraftery (blockcraftery-1.12.2-1.3.1.jar)",
             "fileID": 2716712,
             "projectID": 278882,
+            "downloadUrl": "https://edge.forgecdn.net/files/2716/712/blockcraftery-1.12.2-1.3.1.jar",
             "required": true
         },
         {
             "alias": "Botania (Botania r1.10-364.4.jar)",
             "fileID": 3330934,
             "projectID": 225643,
+            "downloadUrl": "https://edge.forgecdn.net/files/3330/934/Botania%20r1.10-364.4.jar",
             "required": true
         },
         {
             "alias": "Building Gadgets (BuildingGadgets-2.8.4.jar)",
             "fileID": 3005950,
             "projectID": 298187,
+            "downloadUrl": "https://edge.forgecdn.net/files/3005/950/BuildingGadgets-2.8.4.jar",
             "required": true
         },
         {
             "alias": "CC: Tweaked (cc-tweaked-1.12.2-1.89.2.jar)",
             "fileID": 2992872,
             "projectID": 282001,
+            "downloadUrl": "https://edge.forgecdn.net/files/2992/872/cc-tweaked-1.12.2-1.89.2.jar",
             "required": true
         },
         {
             "alias": "Chisel (Chisel-MC1.12.2-1.0.2.45.jar)",
             "fileID": 2915375,
             "projectID": 235279,
+            "downloadUrl": "https://edge.forgecdn.net/files/2915/375/Chisel-MC1.12.2-1.0.2.45.jar",
             "required": true
         },
         {
             "alias": "Diet Hoppers (diethopper-1.1.jar)",
             "fileID": 2482543,
             "projectID": 278385,
+            "downloadUrl": "https://edge.forgecdn.net/files/2482/543/diethopper-1.1.jar",
             "required": true
         },
         {
             "alias": "OpenBlocks Elevator (ElevatorMod-1.12.2-1.3.14.jar)",
             "fileID": 2845365,
             "projectID": 250832,
+            "downloadUrl": "https://edge.forgecdn.net/files/2845/365/ElevatorMod-1.12.2-1.3.14.jar",
             "required": true
         },
         {
             "alias": "Enchantment Descriptions (EnchantmentDescriptions-1.12.2-1.1.20.jar)",
             "fileID": 2898966,
             "projectID": 250419,
+            "downloadUrl": "https://edge.forgecdn.net/files/2898/966/EnchantmentDescriptions-1.12.2-1.1.20.jar",
             "required": true
         },
         {
             "alias": "Extreme Reactors (ExtremeReactors-1.12.2-0.4.5.68.jar)",
             "fileID": 3194746,
             "projectID": 250277,
+            "downloadUrl": "https://edge.forgecdn.net/files/3194/746/ExtremeReactors-1.12.2-0.4.5.68.jar",
             "required": true
         },
         {
             "alias": "Foam\u200bFix (foamfix-0.10.14-1.12.2.jar)",
             "fileID": 3327893,
             "projectID": 278494,
+            "downloadUrl": "https://edge.forgecdn.net/files/3327/893/foamfix-0.10.14-1.12.2.jar",
             "required": true
         },
         {
             "alias": "ICBM - Classic (ICBM-classic-1.12.2-4.1.0b20211106011048.jar)",
             "fileID": 3516968,
             "projectID": 244451,
+            "downloadUrl": "https://edge.forgecdn.net/files/3516/968/ICBM-classic-1.12.2-4.1.0b20211106011048.jar",
             "required": true
         },
         {
             "alias": "Just Enough Items (JEI) (jei_1.12.2-4.16.1.302.jar)",
             "fileID": 3043174,
             "projectID": 238222,
+            "downloadUrl": "https://edge.forgecdn.net/files/3043/174/jei_1.12.2-4.16.1.302.jar",
             "required": true
         },
         {
             "alias": "JourneyMap (journeymap-1.12.2-5.7.1.jar)",
             "fileID": 2916002,
             "projectID": 32274,
+            "downloadUrl": "https://edge.forgecdn.net/files/2916/002/journeymap-1.12.2-5.7.1.jar",
             "required": true
         },
         {
             "alias": "Just Enough Dimensions (justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar)",
             "fileID": 2932048,
             "projectID": 254317,
+            "downloadUrl": "https://edge.forgecdn.net/files/2932/048/justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
             "required": true
         },
         {
             "alias": "LittleTiles (LittleTiles_v1.5.57_mc1.12.2.jar)",
             "fileID": 3584330,
             "projectID": 257818,
+            "downloadUrl": "https://edge.forgecdn.net/files/3584/330/LittleTiles_v1.5.57_mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "The Lost Cities (lostcities-1.12-2.0.22.jar)",
             "fileID": 2861574,
             "projectID": 269024,
+            "downloadUrl": "https://edge.forgecdn.net/files/2861/574/lostcities-1.12-2.0.22.jar",
             "required": true
         },
         {
             "alias": "Mantle (Mantle-1.12-1.3.3.55.jar)",
             "fileID": 2713386,
             "projectID": 74924,
+            "downloadUrl": "https://edge.forgecdn.net/files/2713/386/Mantle-1.12-1.3.3.55.jar",
             "required": true
         },
         {
             "alias": "Mekanism (Mekanism-1.12.2-9.8.3.390.jar)",
             "fileID": 2835175,
             "projectID": 268560,
+            "downloadUrl": "https://edge.forgecdn.net/files/2835/175/Mekanism-1.12.2-9.8.3.390.jar",
             "required": true
         },
         {
             "alias": "Mekanism Generators (MekanismGenerators-1.12.2-9.8.3.390.jar)",
             "fileID": 2835177,
             "projectID": 268566,
+            "downloadUrl": "https://edge.forgecdn.net/files/2835/177/MekanismGenerators-1.12.2-9.8.3.390.jar",
             "required": true
         },
         {
             "alias": "Mekanism Tools (MekanismTools-1.12.2-9.8.3.390.jar)",
             "fileID": 2835178,
             "projectID": 268567,
+            "downloadUrl": "https://edge.forgecdn.net/files/2835/178/MekanismTools-1.12.2-9.8.3.390.jar",
             "required": true
         },
         {
             "alias": "Metal Chests (MetalChests-v6.1.0+mc1.12.2.jar)",
             "fileID": 2751488,
             "projectID": 290145,
+            "downloadUrl": "https://edge.forgecdn.net/files/2751/488/MetalChests-v6.1.0+mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "MineTraps (MineTraps-1.12.2-(v.1.0.4).jar)",
             "fileID": 2764626,
             "projectID": 311546,
+            "downloadUrl": "https://edge.forgecdn.net/files/2764/626/MineTraps-1.12.2-(v.1.0.4).jar",
             "required": true
         },
         {
             "alias": "Moar Tinkers (moartinkers-0.6.0.jar)",
             "fileID": 2579934,
             "projectID": 263624,
+            "downloadUrl": "https://edge.forgecdn.net/files/2579/934/moartinkers-0.6.0.jar",
             "required": true
         },
         {
             "alias": "ModTweaker (modtweaker-4.0.20.5.jar)",
             "fileID": 3488553,
             "projectID": 220954,
+            "downloadUrl": "https://edge.forgecdn.net/files/3488/553/modtweaker-4.0.20.5.jar",
             "required": true
         },
         {
             "alias": "Modular Powersuits (ModularPowersuits-1.12.2-1.0.46.jar)",
             "fileID": 2743885,
             "projectID": 235442,
+            "downloadUrl": "https://edge.forgecdn.net/files/2743/885/ModularPowersuits-1.12.2-1.0.46.jar",
             "required": true
         },
         {
             "alias": "Mouse Tweaks (MouseTweaks-2.10.1-mc1.12.2.jar)",
             "fileID": 3359843,
             "projectID": 60089,
+            "downloadUrl": "https://edge.forgecdn.net/files/3359/843/MouseTweaks-2.10.1-mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "NuclearCraft (NuclearCraft-2.18zz-1.12.2.jar)",
             "fileID": 3643158,
             "projectID": 226254,
+            "downloadUrl": "https://edge.forgecdn.net/files/3643/158/NuclearCraft-2.18zz-1.12.2.jar",
             "required": true
         },
         {
             "alias": "Numina (Numina-1.12.2-1.0.38.jar)",
             "fileID": 2715198,
             "projectID": 235440,
+            "downloadUrl": "https://edge.forgecdn.net/files/2715/198/Numina-1.12.2-1.0.38.jar",
             "required": true
         },
         {
             "alias": "OMLib (omlib-1.12.2-3.1.5-256.jar)",
             "fileID": 3466259,
             "projectID": 254334,
+            "downloadUrl": "https://edge.forgecdn.net/files/3466/259/omlib-1.12.2-3.1.5-256.jar",
             "required": true
         },
         {
             "alias": "OpenComputers (OpenComputers-MC1.12.2-1.7.5.192.jar)",
             "fileID": 2828357,
             "projectID": 223008,
+            "downloadUrl": "https://edge.forgecdn.net/files/2828/357/OpenComputers-MC1.12.2-1.7.5.192.jar",
             "required": true
         },
         {
             "alias": "Opencomputers ICBM-Classic Addon (OpenComputersICBMAddon-1.3.jar)",
             "fileID": 3196137,
             "projectID": 370697,
+            "downloadUrl": "https://edge.forgecdn.net/files/3196/137/OpenComputersICBMAddon-1.3.jar",
             "required": true
         },
         {
             "alias": "Open Modular Turrets (openmodularturrets-1.12.2-3.1.14-382.jar)",
             "fileID": 3466431,
             "projectID": 224663,
+            "downloadUrl": "https://edge.forgecdn.net/files/3466/431/openmodularturrets-1.12.2-3.1.14-382.jar",
             "required": true
         },
         {
             "alias": "Plethora Peripherals (plethora-1.12.2-1.2.3.jar)",
             "fileID": 2858569,
             "projectID": 248425,
+            "downloadUrl": "https://edge.forgecdn.net/files/2858/569/plethora-1.12.2-1.2.3.jar",
             "required": true
         },
         {
             "alias": "RandomPatches (Forge) (randompatches-1.12.2-1.22.1.10.jar)",
             "fileID": 3133651,
             "projectID": 285612,
+            "downloadUrl": "https://edge.forgecdn.net/files/3133/651/randompatches-1.12.2-1.22.1.10.jar",
             "required": true
         },
         {
             "alias": "RandomTweaks (randomtweaks-1.12.2-2.8.3.1.jar)",
             "fileID": 3204340,
             "projectID": 258205,
+            "downloadUrl": "https://edge.forgecdn.net/files/3204/340/randomtweaks-1.12.2-2.8.3.1.jar",
             "required": true
         },
         {
             "alias": "OAuth (oauth-1.06.4.jar)",
             "fileID": 3739783,
             "projectID": 513857,
+            "downloadUrl": "https://edge.forgecdn.net/files/3739/783/oauth-1.06.4.jar",
             "required": true
         },
         {
             "alias": "Redstone Flux (RedstoneFlux-1.12-2.1.1.1-universal.jar)",
             "fileID": 2920436,
             "projectID": 270789,
+            "downloadUrl": "https://edge.forgecdn.net/files/2920/436/RedstoneFlux-1.12-2.1.1.1-universal.jar",
             "required": true
         },
         {
             "alias": "Stargate Network (SGCraft-2.0.5.jar)",
             "fileID": 3044648,
             "projectID": 289115,
+            "downloadUrl": "https://edge.forgecdn.net/files/3044/648/SGCraft-2.0.5.jar",
             "required": true
         },
         {
             "alias": "Spartan Shields (SpartanShields-1.12.2-1.5.5.jar)",
             "fileID": 3567495,
             "projectID": 252239,
+            "downloadUrl": "https://edge.forgecdn.net/files/3567/495/SpartanShields-1.12.2-1.5.5.jar",
             "required": true
         },
         {
             "alias": "Spartan Weaponry (SpartanWeaponry-1.12.2-1.4.1.jar)",
             "fileID": 3634012,
             "projectID": 278141,
+            "downloadUrl": "https://edge.forgecdn.net/files/3634/012/SpartanWeaponry-1.12.2-1.4.1.jar",
             "required": true
         },
         {
             "alias": "TBone (TBone-v1.6.8+mc1.12.2.jar)",
             "fileID": 2748902,
             "projectID": 323527,
+            "downloadUrl": "https://edge.forgecdn.net/files/2748/902/TBone-v1.6.8+mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "Tinkers Construct (TConstruct-1.12.2-2.13.0.183.jar)",
             "fileID": 2902483,
             "projectID": 74072,
+            "downloadUrl": "https://edge.forgecdn.net/files/2902/483/TConstruct-1.12.2-2.13.0.183.jar",
             "required": true
         },
         {
             "alias": "Techguns (techguns-1.12.2-2.0.2.0_pre3.2.jar)",
             "fileID": 2958103,
             "projectID": 244201,
+            "downloadUrl": "https://edge.forgecdn.net/files/2958/103/techguns-1.12.2-2.0.2.0_pre3.2.jar",
             "required": true
         },
         {
             "alias": "Thermal Dynamics (ThermalDynamics-1.12.2-2.5.6.1-universal.jar)",
             "fileID": 2920505,
             "projectID": 227443,
+            "downloadUrl": "https://media.forgecdn.net/files/2920/505/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
             "required": true
         },
         {
             "alias": "Thermal Expansion (ThermalExpansion-1.12.2-5.5.7.1-universal.jar)",
             "fileID": 2926431,
             "projectID": 69163,
+            "downloadUrl": "https://media.forgecdn.net/files/2926/431/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
             "required": true
         },
         {
             "alias": "Thermal Foundation (ThermalFoundation-1.12.2-2.6.7.1-universal.jar)",
             "fileID": 2926428,
             "projectID": 222880,
+            "downloadUrl": "https://media.forgecdn.net/files/2926/428/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
             "required": true
         },
         {
             "alias": "Tinker's JEI (tinkersjei-1.2.jar)",
             "fileID": 2701203,
             "projectID": 291786,
+            "downloadUrl": "https://media.forgecdn.net/files/2701/203/tinkersjei-1.2.jar",
             "required": true
         },
         {
             "alias": "Tinkers' Tool Leveling (TinkerToolLeveling-1.12.2-1.1.0.jar)",
             "fileID": 2630860,
             "projectID": 250957,
+            "downloadUrl": "https://media.forgecdn.net/files/2630/860/TinkerToolLeveling-1.12.2-1.1.0.jar",
             "required": true
         },
         {
-            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.28.jar)",
-            "fileID": 3762066,
+            "alias": "WarpDrive (WarpDrive-1.12.2-1.5.27.jar)",
+            "fileID": 3751774,
             "projectID": 233565,
+            "downloadUrl": "https://media.forgecdn.net/files/3751/774/WarpDrive-1.12.2-1.5.27.jar",
             "required": true
         },
         {
             "alias": "WorldEdit (worldedit-forge-mc1.12.2-6.1.10-dist.jar)",
             "fileID": 2941712,
             "projectID": 225608,
+            "downloadUrl": "https://media.forgecdn.net/files/2941/712/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
             "required": true
         },
         {
             "alias": "ZeroCore 2 (zerocore-1.12.2-0.1.2.9.jar)",
             "fileID": 3194743,
             "projectID": 247921,
+            "downloadUrl": "https://media.forgecdn.net/files/3194/743/zerocore-1.12.2-0.1.2.9.jar",
             "required": true
         },
         {
             "alias": "CreativeCore (CreativeCore_v1.10.70_mc1.12.2.jar)",
             "fileID": 3626833,
             "projectID": 257814,
+            "downloadUrl": "https://media.forgecdn.net/files/3626/833/CreativeCore_v1.10.70_mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "BdLib (bdlib-1.14.3.12-mc1.12.2.jar)",
             "fileID": 2518031,
             "projectID": 70496,
+            "downloadUrl": "https://edge.forgecdn.net/files/2518/031/bdlib-1.14.3.12-mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "MysticalLib (mysticallib-1.12.2-1.13.0.jar)",
             "fileID": 3483816,
             "projectID": 277064,
+            "downloadUrl": "https://media.forgecdn.net/files/3483/816/mysticallib-1.12.2-1.13.0.jar",
             "required": true
         },
         {
             "alias": "ConnectedTexturesMod (CTM-MC1.12.2-1.0.2.31.jar)",
             "fileID": 2915363,
             "projectID": 267602,
+            "downloadUrl": "https://media.forgecdn.net/files/2915/363/CTM-MC1.12.2-1.0.2.31.jar",
             "required": true
         },
         {
             "alias": "MTLib (MTLib-3.0.7.jar)",
             "fileID": 3308160,
             "projectID": 253211,
+            "downloadUrl": "https://media.forgecdn.net/files/3308/160/MTLib-3.0.7.jar",
             "required": true
         },
         {
             "alias": "CraftTweaker (CraftTweaker2-1.12-4.1.20.674.jar)",
             "fileID": 3642364,
             "projectID": 239197,
+            "downloadUrl": "https://media.forgecdn.net/files/3642/364/CraftTweaker2-1.12-4.1.20.674.jar",
             "required": true
         },
         {
             "alias": "CoFH Core (CoFHCore-1.12.2-4.6.6.1-universal.jar)",
             "fileID": 2920433,
             "projectID": 69162,
+            "downloadUrl": "https://media.forgecdn.net/files/2920/433/CoFHCore-1.12.2-4.6.6.1-universal.jar",
             "required": true
         },
         {
             "alias": "CodeChicken Lib 1.8.+ (CodeChickenLib-1.12.2-3.2.3.358-universal.jar)",
             "fileID": 2779848,
             "projectID": 242818,
+            "downloadUrl": "https://media.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
             "required": true
         },
         {
             "alias": "CoFH World (CoFHWorld-1.12.2-1.4.0.1-universal.jar)",
             "fileID": 2920434,
             "projectID": 271384,
+            "downloadUrl": "https://media.forgecdn.net/files/2920/434/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
             "required": true
         },
         {
             "alias": "Tropicraft (tropicraft-MC1.12.2-7.1.9.115.jar)",
             "fileID": 2713918,
             "projectID": 254794,
+            "downloadUrl": "https://media.forgecdn.net/files/2713/918/tropicraft-MC1.12.2-7.1.9.115.jar",
             "required": true
         },
         {
             "alias": "Atum 2: Return to the Sands (Atum-1.12.2-2.0.20.jar)",
             "fileID": 3116599,
             "projectID": 59621,
+            "downloadUrl": "https://media.forgecdn.net/files/3116/599/Atum-1.12.2-2.0.20.jar",
             "required": true
         },
         {
             "alias": "Just Enough Resources (JER) (JustEnoughResources-1.12.2-0.9.2.60.jar)",
             "fileID": 2728585,
             "projectID": 240630,
+            "downloadUrl": "https://media.forgecdn.net/files/2728/585/JustEnoughResources-1.12.2-0.9.2.60.jar",
             "required": true
         },
         {
             "alias": "Just Enough Energistics (JEE) (JustEnoughEnergistics-1.12.2-1.0.8.jar)",
             "fileID": 2783832,
             "projectID": 310812,
+            "downloadUrl": "https://media.forgecdn.net/files/2783/832/JustEnoughEnergistics-1.12.2-1.0.8.jar",
             "required": true
         },
         {
             "alias": "Just Enough Reactors (JustEnoughReactors-1.12.2-1.1.3.61.jar)",
             "fileID": 2671784,
             "projectID": 292952,
+            "downloadUrl": "https://media.forgecdn.net/files/2671/784/JustEnoughReactors-1.12.2-1.1.3.61.jar",
             "required": true
         },
         {
             "alias": "Controlling (Controlling-3.0.10.jar)",
             "fileID": 3025548,
             "projectID": 250398,
+            "downloadUrl": "https://media.forgecdn.net/files/3025/548/Controlling-3.0.10.jar",
             "required": true
         },
         {
             "alias": "AppleSkin (AppleSkin-mc1.12-1.0.14.jar)",
             "fileID": 2987247,
             "projectID": 248787,
+            "downloadUrl": "https://media.forgecdn.net/files/2987/247/AppleSkin-mc1.12-1.0.14.jar",
             "required": true
         },
         {
-            "alias": "Aroma1997Core (Aroma1997Core-1.12.2-2.0.0.2.b167.jar)",
-            "fileID": 2914062,
+            "alias": "Aroma1997Core (Aroma1997Core-1.12.2-2.0.0.2.jar)",
+            "fileID": 2676866,
             "projectID": 223735,
+            "downloadUrl": "https://media.forgecdn.net/files/2676/866/Aroma1997Core-1.12.2-2.0.0.2.jar",
             "required": true
         },
         {
-            "alias": "AromaBackup (AromaBackup-1.12.2-3.0.0.0.b135.jar)",
-            "fileID": 3070947,
+            "alias": "AromaBackup (AromaBackup-1.12.2-2.1.1.4.jar)",
+            "fileID": 2586524,
             "projectID": 225658,
+            "downloadUrl": "https://media.forgecdn.net/files/2586/524/AromaBackup-1.12.2-2.1.1.4.jar",
             "required": true
         },
         {
             "alias": "Better Advancements (BetterAdvancements-1.12.2-0.1.0.77.jar)",
             "fileID": 2685984,
             "projectID": 272515,
+            "downloadUrl": "https://media.forgecdn.net/files/2685/984/BetterAdvancements-1.12.2-0.1.0.77.jar",
             "required": true
         },
         {
             "alias": "Clumps (Clumps-3.1.2.jar)",
             "fileID": 2666198,
             "projectID": 256717,
+            "downloadUrl": "https://media.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
             "required": true
         },
         {
-            "alias": "Custom Main Menu (CustomMainMenu-MC1.12.2-2.0.9.1.jar)",
-            "fileID": 2857869,
-            "projectID": 226406,
+            "alias": "MixinBootstrap (_MixinBootstrap-1.1.0.jar)",
+            "fileID": 3437402,
+            "projectID": 357178,
+            "downloadUrl": "https://edge.forgecdn.net/files/3437/402/_MixinBootstrap-1.1.0.jar",
+            "required": true
+        },
+        {
+            "alias": "Konkrete [Forge/NeoForge] (konkrete_forge_1.6.1_MC_1.12-1.12.2.jar)",
+            "fileID": 4514895,
+            "projectID": 410295,
+            "downloadUrl": "https://edge.forgecdn.net/files/4514/895/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+            "required": true
+        },
+        {
+            "alias": "FancyMenu (fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar)",
+            "fileID": 4655936,
+            "projectID": 367706,
+            "downloadUrl": "https://edge.forgecdn.net/files/4655/936/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
             "required": true
         },
         {
             "alias": "Default Options (DefaultOptions_1.12.2-9.2.8.jar)",
             "fileID": 2624732,
             "projectID": 232131,
+            "downloadUrl": "https://media.forgecdn.net/files/2624/732/DefaultOptions_1.12.2-9.2.8.jar",
             "required": true
         },
         {
             "alias": "FastWorkbench (FastWorkbench-1.12.2-1.7.3.jar)",
             "fileID": 2838777,
             "projectID": 288885,
+            "downloadUrl": "https://media.forgecdn.net/files/2838/777/FastWorkbench-1.12.2-1.7.3.jar",
             "required": true
         },
         {
             "alias": "FastFurnace (FastFurnace-1.12.2-1.3.1.jar)",
             "fileID": 2706111,
             "projectID": 299540,
+            "downloadUrl": "https://media.forgecdn.net/files/2706/111/FastFurnace-1.12.2-1.3.1.jar",
             "required": true
         },
         {
             "alias": "In Control! (incontrol-1.12-3.9.18.jar)",
             "fileID": 3101719,
             "projectID": 257356,
+            "downloadUrl": "https://media.forgecdn.net/files/3101/719/incontrol-1.12-3.9.18.jar",
             "required": true
         },
         {
             "alias": "LagGoggles (LagGoggles-1.12.2-5.8-132.jar)",
             "fileID": 2947622,
             "projectID": 283525,
+            "downloadUrl": "https://media.forgecdn.net/files/2947/622/LagGoggles-1.12.2-5.8-132.jar",
             "required": true
         },
         {
             "alias": "TickCentral (TickCentral-3.2.jar)",
             "fileID": 3140670,
             "projectID": 377201,
+            "downloadUrl": "https://media.forgecdn.net/files/3140/670/TickCentral-3.2.jar",
             "required": true
         },
         {
             "alias": "More Overlays (moreoverlays-1.15.1-mc1.12.2.jar)",
             "fileID": 2745657,
             "projectID": 243478,
+            "downloadUrl": "https://media.forgecdn.net/files/2745/657/moreoverlays-1.15.1-mc1.12.2.jar",
             "required": true
         },
         {
             "alias": "Smooth Font (SmoothFont-mc1.12.2-2.1.2.jar)",
             "fileID": 2949817,
             "projectID": 285742,
+            "downloadUrl": "https://media.forgecdn.net/files/2949/817/SmoothFont-mc1.12.2-2.1.2.jar",
             "required": true
         },
         {
             "alias": "SwingThroughGrass (stg-1.12.2-1.2.3.jar)",
             "fileID": 2508268,
             "projectID": 264353,
+            "downloadUrl": "https://media.forgecdn.net/files/2508/268/stg-1.12.2-1.2.3.jar",
             "required": true
         },
         {
             "alias": "Super Sound Muffler: Revived (supersoundmuffler-revived_1.12.2_1.0.2.10.jar)",
             "fileID": 2886150,
             "projectID": 363856,
+            "downloadUrl": "https://media.forgecdn.net/files/2886/150/supersoundmuffler-revived_1.12.2_1.0.2.10.jar",
             "required": true
         },
         {
             "alias": "BNBGamingLib (BNBGamingLib-1.12.2-2.17.6.jar)",
             "fileID": 2698688,
             "projectID": 229587,
+            "downloadUrl": "https://media.forgecdn.net/files/2698/688/BNBGamingLib-1.12.2-2.17.6.jar",
             "required": true
         },
         {
             "alias": "Resource Loader (ResourceLoader-MC1.12.1-1.5.3.jar)",
             "fileID": 2477566,
             "projectID": 226447,
+            "downloadUrl": "https://media.forgecdn.net/files/2477/566/ResourceLoader-MC1.12.1-1.5.3.jar",
             "required": true
         },
         {
             "alias": "Nether Overload (netheroverload-1.12.2-0.0.7.jar)",
             "fileID": 2536586,
             "projectID": 264925,
+            "downloadUrl": "https://media.forgecdn.net/files/2536/586/netheroverload-1.12.2-0.0.7.jar",
             "required": true
         },
         {
-            "alias": "Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151.jar)",
-            "fileID": 2923460,
+            "alias": "Inventory Tweaks [1.12 only]  (InventoryTweaks-1.63.jar)",
+            "fileID": 2482481,
             "projectID": 223094,
+            "downloadUrl": "https://media.forgecdn.net/files/2482/481/InventoryTweaks-1.63.jar",
             "required": true
         },
         {
             "alias": "The One Probe (theoneprobe-1.12-1.4.28.jar)",
             "fileID": 2667280,
             "projectID": 245211,
+            "downloadUrl": "https://media.forgecdn.net/files/2667/280/theoneprobe-1.12-1.4.28.jar",
             "required": true
         },
         {
             "alias": "TOP Addons (topaddons-1.12.2-1.13.0.jar)",
             "fileID": 2887479,
             "projectID": 247111,
-            "required": true
-        },
-        {
-            "alias": "It's the little things (itlt-1.12.x-1.0.4.jar)",
-            "fileID": 3330021,
-            "projectID": 232791,
+            "downloadUrl": "https://media.forgecdn.net/files/2887/479/topaddons-1.12.2-1.13.0.jar",
             "required": true
         },
         {
             "alias": "Bed Correction (originally BedFix) (bedfix_V1.2_1.12.2.jar)",
             "fileID": 3143614,
             "projectID": 427420,
+            "downloadUrl": "https://media.forgecdn.net/files/3143/614/bedfix_V1.2_1.12.2.jar",
             "required": true
         },
         {
             "alias": "Patchouli (Patchouli-1.0-23.6.jar)",
             "fileID": 3162874,
             "projectID": 306770,
+            "downloadUrl": "https://media.forgecdn.net/files/3162/874/Patchouli-1.0-23.6.jar",
             "required": true
         },
         {
             "alias": "Recurrent Complex (RecurrentComplex-1.4.8.2.jar)",
             "fileID": 2689602,
             "projectID": 223150,
+            "downloadUrl": "https://media.forgecdn.net/files/2689/602/RecurrentComplex-1.4.8.2.jar",
             "required": true
         },
         {
             "alias": "Scape and Run: Parasites (SRParasites-1.12.2v1.9.5.jar)",
             "fileID": 3755305,
             "projectID": 348025,
+            "downloadUrl": "https://media.forgecdn.net/files/3755/305/SRParasites-1.12.2v1.9.5.jar",
             "required": true
         },
         {
             "alias": "IvToolkit (IvToolkit-1.3.3-1.12.jar)",
             "fileID": 2443253,
             "projectID": 224535,
+            "downloadUrl": "https://media.forgecdn.net/files/2443/253/IvToolkit-1.3.3-1.12.jar",
             "required": true
         },
         {
             "alias": "LLibrary (llibrary-1.7.20-1.12.2.jar)",
             "fileID": 3116493,
             "projectID": 243298,
+            "downloadUrl": "https://media.forgecdn.net/files/3116/493/llibrary-1.7.20-1.12.2.jar",
             "required": true
         },
         {
             "alias": "Mowzie's Mobs (mowziesmobs-1.5.8.jar)",
             "fileID": 3048685,
             "projectID": 250498,
+            "downloadUrl": "https://media.forgecdn.net/files/3048/685/mowziesmobs-1.5.8.jar",
             "required": true
         },
         {
             "alias": "No Nether Portals (nonetherPortals_v1.0.0formc1.12.2.jar)",
             "fileID": 2573063,
             "projectID": 296057,
+            "downloadUrl": "https://edge.forgecdn.net/files/2573/063/nonetherPortals_v1.0.0formc1.12.2.jar",
             "required": true
         },
         {
             "alias": "Lycanites Mobs (lycanitesmobs-1.12.2-2.0.8.5.jar)",
             "fileID": 3649418,
             "projectID": 224770,
+            "downloadUrl": "https://media.forgecdn.net/files/3649/418/lycanitesmobs-1.12.2-2.0.8.5.jar",
             "required": true
         },
         {
             "alias": "Realistic Terrain Generation (RTG-1.12.2-6.1.0.0-snapshot.1.jar)",
             "fileID": 2782568,
             "projectID": 237989,
+            "downloadUrl": "https://media.forgecdn.net/files/2782/568/RTG-1.12.2-6.1.0.0-snapshot.1.jar",
             "required": true
         },
         {
             "alias": "Biomes O' Plenty (BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar)",
             "fileID": 3558882,
             "projectID": 220318,
+            "downloadUrl": "https://media.forgecdn.net/files/3558/882/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
             "required": true
         },
         {
             "alias": "Custom Starter Gear (CustomStartingGear-1.12-1.2.0.9-universal.jar)",
             "fileID": 2514705,
             "projectID": 253735,
+            "downloadUrl": "https://media.forgecdn.net/files/2514/705/CustomStartingGear-1.12-1.2.0.9-universal.jar",
             "required": true
         },
         {
             "alias": "Mob Sunscreen (mobsunscreen-1.12.2-2.1.3.jar)",
             "fileID": 3039432,
             "projectID": 298408,
+            "downloadUrl": "https://media.forgecdn.net/files/3039/432/mobsunscreen-1.12.2-2.1.3.jar",
             "required": true
         },
         {
-            "alias": "LootTableTweaker (LootTableTweaker-1.12.2-1.1.17.jar)",
-            "fileID": 2644030,
+            "alias": "LootTableTweaker (LootTableTweaker-1.12.2-1.1.14.jar)",
+            "fileID": 2541554,
             "projectID": 261339,
+            "downloadUrl": "https://media.forgecdn.net/files/2541/554/LootTableTweaker-1.12.2-1.1.14.jar",
             "required": true
         },
         {
             "alias": "LootTweaker (LootTweaker-0.3.1+MC1.12.2.jar)",
             "fileID": 3507866,
             "projectID": 255257,
+            "downloadUrl": "https://edge.forgecdn.net/files/3507/866/LootTweaker-0.3.1+MC1.12.2.jar",
             "required": true
         },
         {
             "alias": "More Loot Stuff (MoreLootStuff-1.12.2-0.0.5.jar)",
             "fileID": 3117402,
             "projectID": 284472,
+            "downloadUrl": "https://media.forgecdn.net/files/3117/402/MoreLootStuff-1.12.2-0.0.5.jar",
             "required": true
         },
         {
             "alias": "GraveStone Mod (gravestone-1.10.3.jar)",
             "fileID": 2744766,
             "projectID": 238551,
+            "downloadUrl": "https://media.forgecdn.net/files/2744/766/gravestone-1.10.3.jar",
             "required": true
         },
         {
             "alias": "No Worldgen 5 You (NoWorldgen5You-1.12.2-1.0.8.jar)",
             "fileID": 2623496,
             "projectID": 274782,
+            "downloadUrl": "https://media.forgecdn.net/files/2623/496/NoWorldgen5You-1.12.2-1.0.8.jar",
             "required": true
         },
         {
             "alias": "The Erebus (Erebus-1.0.32.jar)",
             "fileID": 3211974,
             "projectID": 220698,
+            "downloadUrl": "https://media.forgecdn.net/files/3211/974/Erebus-1.0.32.jar",
             "required": true
         },
         {
             "alias": "BetterQuesting (BetterQuesting-3.5.329.jar)",
             "fileID": 2950248,
             "projectID": 238856,
+            "downloadUrl": "https://media.forgecdn.net/files/2950/248/BetterQuesting-3.5.329.jar",
             "required": true
         },
         {
             "alias": "Better Questing - Standard Expansion (StandardExpansion-3.4.173.jar)",
             "fileID": 2863771,
             "projectID": 238857,
+            "downloadUrl": "https://media.forgecdn.net/files/2863/771/StandardExpansion-3.4.173.jar",
             "required": true
         },
         {
             "alias": "Better Questing Tweaker (BQTweaker) (BQTweaker-1.3.3.jar)",
             "fileID": 3626196,
             "projectID": 423758,
+            "downloadUrl": "https://media.forgecdn.net/files/3626/196/BQTweaker-1.3.3.jar",
             "required": true
         },
         {
             "alias": "Better Questing - Multiblock and Structure Integration (BQ_Multiblock_Structure_Integration-1.0.7.jar)",
             "fileID": 3573675,
             "projectID": 375285,
+            "downloadUrl": "https://media.forgecdn.net/files/3573/675/BQ_Multiblock_Structure_Integration-1.0.7.jar",
             "required": true
         },
         {
             "alias": "World Primer (worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar)",
             "fileID": 2866063,
             "projectID": 258911,
+            "downloadUrl": "https://edge.forgecdn.net/files/2866/063/worldprimer-1.12.2-0.6.0-dev.20200122.211517.jar",
             "required": true
         },
         {
@@ -725,150 +857,175 @@
             "alias": "Pillar (Pillar-1.2-10.jar)",
             "fileID": 2490795,
             "projectID": 246695,
+            "downloadUrl": "https://media.forgecdn.net/files/2490/795/Pillar-1.2-10.jar",
             "required": true
         },
         {
             "alias": "Shadowfacts' Forgelin (Forgelin-1.8.4.jar)",
             "fileID": 2785465,
             "projectID": 248453,
+            "downloadUrl": "https://media.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar",
             "required": true
         },
         {
             "alias": "Tesla Core Lib (tesla-core-lib-1.12.2-1.0.18.jar)",
             "fileID": 3438487,
             "projectID": 254602,
+            "downloadUrl": "https://media.forgecdn.net/files/3438/487/tesla-core-lib-1.12.2-1.0.18.jar",
             "required": true
         },
         {
             "alias": "Industrial Foregoing (industrialforegoing-1.12.2-1.12.13-237.jar)",
             "fileID": 2745321,
             "projectID": 266515,
+            "downloadUrl": "https://media.forgecdn.net/files/2745/321/industrialforegoing-1.12.2-1.12.13-237.jar",
             "required": true
         },
         {
             "alias": "McJtyLib (mcjtylib-1.12-3.5.4.jar)",
             "fileID": 2745846,
             "projectID": 233105,
+            "downloadUrl": "https://media.forgecdn.net/files/2745/846/mcjtylib-1.12-3.5.4.jar",
             "required": true
         },
         {
             "alias": "XNet (xnet-1.12-1.8.2.jar)",
             "fileID": 2745852,
             "projectID": 260912,
+            "downloadUrl": "https://media.forgecdn.net/files/2745/852/xnet-1.12-1.8.2.jar",
             "required": true
         },
         {
             "alias": "Reborn Core (RebornCore-1.12.2-3.19.5-universal.jar)",
             "fileID": 3330308,
             "projectID": 237903,
-            "required": true
-        },
-        {
-            "alias": "Main Menu Scale (MainMenuScale-1.3.2.jar)",
-            "fileID": 2683258,
-            "projectID": 310375,
+            "downloadUrl": "https://media.forgecdn.net/files/3330/308/RebornCore-1.12.2-3.19.5-universal.jar",
             "required": true
         },
         {
             "alias": "Elenai Dodge (ElenaiDodge-1.12.2-2.1.jar)",
             "fileID": 3575333,
             "projectID": 373104,
+            "downloadUrl": "https://media.forgecdn.net/files/3575/333/ElenaiDodge-1.12.2-2.1.jar",
             "required": true
         },
         {
             "alias": "Gauges and Switches (rsgauges-1.12.2-1.2.6.jar)",
             "fileID": 3732954,
             "projectID": 296686,
+            "downloadUrl": "https://media.forgecdn.net/files/3732/954/rsgauges-1.12.2-1.2.6.jar",
             "required": true
         },
         {
             "alias": "Glassential (glassential-1.12.2-1.1.0.jar)",
             "fileID": 2698826,
             "projectID": 319194,
+            "downloadUrl": "https://media.forgecdn.net/files/2698/826/glassential-1.12.2-1.1.0.jar",
             "required": true
         },
         {
             "alias": "Tips (Tips-1.12.2-1.0.9.jar)",
             "fileID": 2906537,
             "projectID": 306549,
+            "downloadUrl": "https://media.forgecdn.net/files/2906/537/Tips-1.12.2-1.0.9.jar",
             "required": true
         },
         {
             "alias": "AutoRegLib (AutoRegLib-1.3-32.jar)",
             "fileID": 2746011,
             "projectID": 250363,
+            "download": "https://edge.forgecdn.net/files/2746/011/AutoRegLib-1.3-32.jar",
             "required": true
         },
         {
             "alias": "Morph-o-Tool (Morph-o-Tool-1.2-21.jar)",
             "fileID": 2658176,
             "projectID": 245287,
+            "downloadUrl": "https://media.forgecdn.net/files/2658/176/Morph-o-Tool-1.2-21.jar",
             "required": true
         },
         {
             "alias": "Modular Routers (modular-routers-1.12.2-3.3.0-33.jar)",
             "fileID": 2954953,
             "projectID": 250294,
+            "downloadUrl": "https://media.forgecdn.net/files/2954/953/modular-routers-1.12.2-3.3.0-33.jar",
             "required": true
         },
         {
             "alias": "B.A.S.E (base-1.12.2-3.14.0.jar)",
             "fileID": 3440963,
             "projectID": 246996,
+            "downloadUrl": "https://media.forgecdn.net/files/3440/963/base-1.12.2-3.14.0.jar",
             "required": true
         },
         {
             "alias": "ContentTweaker (ContentTweaker-1.12.2-4.10.0.jar)",
             "fileID": 3331364,
             "projectID": 237065,
+            "downloadUrl": "https://media.forgecdn.net/files/3331/364/ContentTweaker-1.12.2-4.10.0.jar",
             "required": true
         },
         {
             "alias": "Bad Wither No Cookie - Reloaded (badwithernocookiereloaded-1.12.2-3.4.18.jar)",
             "fileID": 3045651,
             "projectID": 261251,
+            "downloadUrl": "https://media.forgecdn.net/files/3045/651/badwithernocookiereloaded-1.12.2-3.4.18.jar",
             "required": true
         },
         {
             "alias": "KleeSlabs (KleeSlabs_1.12.2-5.4.12.jar)",
             "fileID": 2733525,
             "projectID": 241895,
+            "downloadUrl": "https://media.forgecdn.net/files/2733/525/KleeSlabs_1.12.2-5.4.12.jar",
             "required": true
         },
         {
             "alias": "Armourer's Workshop (Armourers-Workshop-1.12.2-0.51.0.jar)",
             "fileID": 3101995,
             "projectID": 229523,
+            "downloadUrl": "https://media.forgecdn.net/files/3101/995/Armourers-Workshop-1.12.2-0.51.0.jar",
             "required": true
         },
         {
             "alias": "Comforts (Forge) (comforts-1.12.2-1.4.1.3.jar)",
             "fileID": 2880613,
             "projectID": 276951,
+            "downloadUrl": "https://media.forgecdn.net/files/2880/613/comforts-1.12.2-1.4.1.3.jar",
             "required": true
         },
         {
             "alias": "Topography (Topography-1.12.2-1.14.4.jar)",
             "fileID": 3065647,
             "projectID": 297878,
+            "downloadUrl": "https://media.forgecdn.net/files/3065/647/Topography-1.12.2-1.14.4.jar",
             "required": true
         },
         {
             "alias": "Matter Overdrive: Community Edition (MatterOverdrive-1.12.2-0.7.9-universal.jar)",
             "fileID": 3763422,
             "projectID": 557428,
+            "downloadUrl": "https://media.forgecdn.net/files/3763/422/MatterOverdrive-1.12.2-0.7.9-universal.jar",
             "required": true
         },
         {
             "alias": "Traverse Reforged (Traverse-1.12.2-1.6.0-69.jar)",
             "fileID": 2613657,
             "projectID": 267769,
+            "downloadUrl": "https://media.forgecdn.net/files/2613/657/Traverse-1.12.2-1.6.0-69.jar",
             "required": true
         },
         {
             "alias": "YUNG's Better Caves (Forge) (bettercaves-1.12.2-2.0.4.jar)",
             "fileID": 3003242,
             "projectID": 340583,
+            "downloadUrl": "https://media.forgecdn.net/files/3003/242/bettercaves-1.12.2-2.0.4.jar",
+            "required": true
+        },
+        {
+            "alias": "Spawn at Squid (Water Spawn Fix) (SpawnAtSquid-1.0.jar)",
+            "fileID": 3496751,
+            "projectID": 538562,
+            "downloadUrl": "https://media.forgecdn.net/files/3496/751/SpawnAtSquid-1.0.jar",
             "required": true
         }
     ],
@@ -885,5 +1042,5 @@
     },
     "name": "Galactic Drive",
     "overrides": "overrides",
-    "version": "0.2alpha"
+    "version": "alpha"
 }

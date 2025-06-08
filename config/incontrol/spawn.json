@@ -41,7 +41,7 @@
   },
   // *** Restrict "Assimilated Human" count to 22 ***
   {
-    "dimension": ["0","-1","17","111","112","-127","4500","-500"],
+    "dimension": ["0","-1","1","17","111","110","112","-127","4500","-500"],
     "mob": "srparasites:sim_human",
     "maxcount": 22,
     "onjoin": true,
@@ -54,7 +54,7 @@
   },
     // *** Restrict "Assimilated Spider" count to 10 ***
   {
-    "dimension": ["111","112","17"],
+    "dimension": ["110","111","112","17"],
     "mob": "srparasites:sim_bigspider",
     "maxcount": 10,
     "onjoin": true,
@@ -85,7 +85,14 @@
   // Deny some vanilla mobs on Glacia
   {
     "dimension": 111,
-    "mob": ["minecraft:squid","minecraft:pig","minecraft:cow"],
+    "mob": ["minecraft:squid","minecraft:pig","minecraft:cow","minecraft:sheep","minecraft:chicken"],
+    "onjoin": true,
+    "result": "deny"
+  },
+  // Deny some vanilla mobs on Moreitus
+  {
+    "dimension": 110,
+    "mob": ["minecraft:pig","minecraft:cow","minecraft:sheep","minecraft:chicken","minecraft:zombie"],
     "onjoin": true,
     "result": "deny"
   },
@@ -115,57 +122,57 @@
   //
   // *** Global Solar System spawns ***
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:carrier_heavy",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:end_stone"],
     "maxcount": 3,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:carrier_heavy",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:carrier_flying",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:end_stone","minecraft:obsidian"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:carrier_flying",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:rupter",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
-    "maxcount": 18,
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:end_stone"],
+    "maxcount": 30,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:rupter",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:grunt",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:end_stone"],
     "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:grunt",
     "onjoin": true,
     "result": "deny"
@@ -173,8 +180,8 @@
   {
     "dimension": ["0","-1","17","110","111","112","-127","4500"],
     "mob": "srparasites:sim_enderman",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
-    "maxcount": 3,
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:end_stone"],
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -185,29 +192,29 @@
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:anc_dreadnaut",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:anc_dreadnaut",
     "onjoin": true,
     "result": "deny"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:anc_overlord",
-    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass"],
+    "block": ["minecraft:grass","minecraft:packed_ice","minecraft:sand","tropicraft:sand","minecraft:netherrack","minecraft:soul_sand","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:snow_layer","minecraft:snow","nuclearcraft:dry_earth","minecraft:dirt","biomesoplenty:grass","biomesoplenty:mud"],
     "maxcount": 1,
     "onjoin": true,
     "result": "allow"
   },
   {
-    "dimension": ["0","-1","17","110","111","112","-127","4500"],
+    "dimension": ["0","-1","1","17","110","111","112","-127","4500"],
     "mob": "srparasites:anc_overlord",
     "onjoin": true,
     "result": "deny"
@@ -216,9 +223,56 @@
   // *************
   {
     "dimension": -500,
+    "mob": "lycanitesmobs:arisaur",
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
+    "maxcount": 4,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:maka",
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
+    "maxcount": 5,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:wildkin",
+    "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand","biomesoplenty:mud","minecraft:gravel"],
+    "biome": "Land of Lakes",
+    "isnotcolliding": true,
+    "maxcount": 4,
+    "maxheight": 70,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:nymph",
+    "block": ["biomesoplenty:grass","biomesoplenty:leaves"],
+    "biome": "Cherry Blossom Grove",
+    "maxcount": 2,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
+    "mob": "lycanitesmobs:wisp",
+    "block": ["biomesoplenty:grass","biomesoplenty:leaves"],
+    "biome": "Cherry Blossom Grove",
+    "maxcount": 2,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": -500,
     "mob": "minecraft:villager_golem",
     "block": ["biomesoplenty:grass","minecraft:grass","minecraft:leaves","minecraft:dirt","minecraft:sand"],
-    "maxcount": 14,
+    "maxcount": 8,
     "maxheight": 70,
     "onjoin": true,
     "result": "allow"
@@ -268,7 +322,7 @@
     "dimension": -1,
     "mob": "srparasites:crux",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 6,
+    "maxcount": 2,
     "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
     "result": "allow"
@@ -283,7 +337,7 @@
     "dimension": -1,
     "mob": "srparasites:heed",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 6,
+    "maxcount": 2,
     "potion": "minecraft:fire_resistance,2147483647,2",
     "onjoin": true,
     "result": "allow"
@@ -298,7 +352,7 @@
     "dimension": -1,
     "mob": "srparasites:ada_yelloweye",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 6,
+    "maxcount": 3,
     "minheight": 60,
     "onjoin": true,
     "result": "allow"
@@ -313,7 +367,7 @@
     "dimension": -1,
     "mob": "techguns:zombiepigmansoldier",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
-    "maxcount": 8,
+    "maxcount": 4,
     "onjoin": true,
     "result": "allow"
   },
@@ -327,6 +381,7 @@
     "dimension": -1,
     "mob": "mowziesmobs:naga",
     "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "biome": ["Nether Forest","Nether Hills"],
     "maxcount": 2,
     "minheight": 60,
     "seesky": true,
@@ -343,15 +398,10 @@
     "dimension": -1,
     "mob": "lycanitesmobs:afrit",
     "block": ["minecraft:netherrack","minecraft:soul_sand"],
-    "maxcount": 8,
+    "biome": ["Nether Swamp","Nether Plains"],
+    "maxcount": 3,
     "onjoin": true,
     "result": "allow"
-  },
-  {
-    "dimension": -1,
-    "mob": "lycanitesmobs:afrit",
-    "onjoin": true,
-    "result": "deny"
   },
   {
     "dimension": -1,
@@ -364,9 +414,50 @@
   },
   {
     "dimension": -1,
-    "mob": "lycanitesmobs:volcan",
+    "mob": "lycanitesmobs:grell",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 4,
     "onjoin": true,
-    "result": "deny"
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:amalgalich",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "maxcount": 1,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:khalk",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "biome": ["Nether Swamp","Nether Forest"],
+    "maxcount": 2,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:behemoth",
+    "block": ["minecraft:netherrack","minecraft:soul_sand","minecraft:grass"],
+    "biome": ["Wither Ruins","Nether Plains"],
+    "maxcount": 1,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
+  },
+  {
+    "dimension": -1,
+    "mob": "lycanitesmobs:salamander",
+    "maxheight": 55,
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow",
+    "angry": true
   },
   // *** ATUM ***
   // ************
@@ -374,7 +465,7 @@
     "dimension": 17,
     "mob": "srparasites:vigilante",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 4,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -388,7 +479,7 @@
     "dimension": 17,
     "mob": "srparasites:ada_manducater",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 6,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -402,7 +493,7 @@
     "dimension": 17,
     "mob": "atum:brigand",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 24,
+    "maxcount": 14,
     "onjoin": true,
     "result": "allow"
   },
@@ -416,7 +507,7 @@
     "dimension": 17,
     "mob": "atum:barbarian",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 18,
+    "maxcount": 10,
     "onjoin": true,
     "result": "allow"
   },
@@ -430,7 +521,7 @@
     "dimension": 17,
     "mob": "lycanitesmobs:cryptkeeper",
     "block": ["atum:limestone_brick_large","atum:limestone","atum:limestone_brick_carved","atum:sand_layer","atum:limestone_brick_small"],
-    "maxcount": 15,
+    "maxcount": 10,
     "seesky": false,
     "onjoin": true,
     "result": "allow"
@@ -450,7 +541,7 @@
     "dimension": 17,
     "mob": "lycanitesmobs:sutiramu",
     "block": ["atum:sand","atum:sand_layer"],
-    "maxcount": 10,
+    "maxcount": 5,
     "onjoin": true,
     "angry": true,
     "result": "allow"
@@ -475,7 +566,7 @@
     "dimension": -127,
     "mob": "srparasites:ada_longarms",
     "block": ["minecraft:grass","tropicraft:sand"],
-    "maxcount": 3,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -503,7 +594,7 @@
     "dimension": -127,
     "mob": "lycanitesmobs:feradon",
     "block": "minecraft:grass",
-    "maxcount": 16,
+    "maxcount": 6,
     "onjoin": true,
     "result": "allow"
   },
@@ -511,7 +602,7 @@
     "dimension": -127,
     "mob": "lycanitesmobs:arisaur",
     "block": "minecraft:grass",
-    "maxcount": 6,
+    "maxcount": 3,
     "onjoin": true,
     "result": "allow"
   },
@@ -555,7 +646,9 @@
     "dimension": 111,
     "mob": "mowziesmobs:frostmaw",
     "block": ["minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 5,
+    "biome": ["Alps","AlpsFoothills"],
+    "maxcount": 2,
+    "minheight": 60,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -570,7 +663,7 @@
     "dimension": 111,
     "mob": "srparasites:marauder",
     "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 4,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -584,7 +677,7 @@
     "dimension": 111,
     "mob": "srparasites:ada_yelloweye",
     "block": ["minecraft:stone","minecraft:snow_layer","biomesoplenty:leaves","minecraft:packed_ice","biomesoplenty:grass"],
-    "maxcount": 10,
+    "maxcount": 3,
     "minheight": 65,
     "onjoin": true,
     "result": "allow"
@@ -597,10 +690,27 @@
   },
   {
     "dimension": 111,
+    "mob": "minecraft:polar_bear",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "maxcount": 10,
+    "minheight": 60,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "minecraft:polar_bear",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 111,
     "mob": "lycanitesmobs:maug",
     "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 18,
+    "biome": ["Glacier Spikes","Snowy Coniferous Forest","Ice Mountains","AlpsFoothills"],
+    "maxcount": 12,
     "maxheight": 130,
+    "minheight": 60,
     "onjoin": true,
     "result": "allow"
   },
@@ -608,7 +718,21 @@
     "dimension": 111,
     "mob": "lycanitesmobs:frostweaver",
     "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 6,
+    "biome": ["Ice Mountains","Glacier Spikes"],
+    "maxcount": 4,
+    "minheight": 60,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  // Lower count for Frostweaver in other biomes
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:frostweaver",
+    "block": ["minecraft:stone","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Snowy Coniferous Forest","Snowy Forest","AlpsFoothills"],
+    "maxcount": 1,
+    "minheight": 60,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -617,7 +741,9 @@
     "dimension": 111,
     "mob": "lycanitesmobs:bobeko",
     "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
-    "maxcount": 6,
+    "biome": ["Snowy Coniferous Forest"],
+    "maxcount": 3,
+    "minheight": 60,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -625,8 +751,43 @@
   {
     "dimension": 111,
     "mob": "lycanitesmobs:warg",
-    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass"],
-    "maxcount": 10,
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow_layer","minecraft:snow"],
+    "biome": ["Ice Plains Spikes","Snowy Forest","Ice Mountains","AlpsFoothills"],
+    "maxcount": 6,
+    "minheight": 60,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:wendigo",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow","minecraft:snow_layer"],
+    "biome": ["Ice Plains Spikes","Glacier Spikes"],
+    "maxcount": 4,
+    "mintime": 13000,
+    "maxtime": 23999,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  // Lower count for Wendigo in other Biomes
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:wendigo",
+    "block": ["minecraft:stone","minecraft:grass","biomesoplenty:grass","minecraft:snow","minecraft:snow_layer"],
+    "biome": ["Snowy Coniferous Forest","Snowy Forest","AlpsFoothills","Ice Mountains"],
+    "maxcount": 1,
+    "mintime": 13000,
+    "maxtime": 23999,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 111,
+    "mob": "lycanitesmobs:arix",
+    "maxcount": 5,
     "isnotcolliding": true,
     "onjoin": true,
     "result": "allow"
@@ -637,7 +798,7 @@
     "dimension": 112,
     "mob": "srparasites:ada_reeker",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
-    "maxcount": 3,
+    "maxcount": 2,
     "maxheight": 100,
     "seesky": true,
     "onjoin": true,
@@ -653,7 +814,7 @@
     "dimension": 112,
     "mob": "srparasites:warden",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay"],
-    "maxcount": 3,
+    "maxcount": 2,
     "onjoin": true,
     "result": "allow"
   },
@@ -667,7 +828,7 @@
     "dimension": 112,
     "mob": "lycanitesmobs:geist",
     "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 18,
+    "maxcount":8,
     "maxlight": 12,
     "seesky": false,
     "onjoin": true,
@@ -677,7 +838,7 @@
     "dimension": 112,
     "mob": "lycanitesmobs:kobold",
     "block": ["minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 24,
+    "maxcount": 18,
     "onjoin": true,
     "angry": true,
     "result": "allow"
@@ -686,7 +847,7 @@
     "dimension": 112,
     "mob": "lycanitesmobs:calpod",
     "block": ["nuclearcraft:dry_earth","minecraft:stonebrick","minecraft:stained_hardened_clay","minecraft:double_stone_slab","minecraft:quartz_block"],
-    "maxcount": 16,
+    "maxcount": 8,
     "maxheight": 100,
     "seesky": true,
     "onjoin": true,
@@ -706,7 +867,7 @@
     "dimension": 112,
     "mob": "mowziesmobs:ferrous_wroughtnaut",
     "block": "minecraft:wool",
-    "maxcount": 3,
+    "maxcount": 6,
     "perchunk": true,
     "onjoin": true,
     "result": "allow"
@@ -717,19 +878,149 @@
     "onjoin": true,
     "result": "deny"
   },
-   // *** SRParasites deny on Pluto/Erebus
+  // ** MOREITUS **
+  // **************
   {
-    "mod": "srparasites",
-    "dimension": ["1","66"],
+    "dimension": 110,
+    "mob": "srparasites:ada_arachnida",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "maxcount": 2,
+    "minheight": 65,
+    "seesky": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "srparasites:ada_arachnida",
     "onjoin": true,
     "result": "deny"
   },
-  // *** Roika Lycanites Mobs denies ***
-  // Roika's Lycanite mobs are spawned naturally via the biome spawn weights.
-  // This prevents certain ones from spawning on Roika.
   {
-    "dimension": -500,
-    "mob": ["lycanitesmobs:bobeko","lycanitesmobs:yale"],
+    "dimension": 110,
+    "mob": "lycanitesmobs:quetzodracl",
+    "biome": "Overgrown Cliffs",
+    "maxcount": 2,
+    "seesky": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:shambler",
+    "block": ["minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Mangrove","Bayou","Bamboo Forest"],
+    "maxcount": 12,
+    "minheight": 65,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:geken",
+    "block": ["minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Mangrove","Bayou"],
+    "maxcount": 8,
+    "minheight": 65,
+    "isnotcolliding": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:ghoul",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "maxcount": 16,
+    "minheight": 65,
+    "mintime": 13000,
+    "maxtime": 23999,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:dawon",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Bamboo Forest"],
+    "maxcount": 8,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:concapede",
+    "block": ["minecraft:cobblestone","minecraft:stone","minecraft:stained_hardened_clay","minecraft:dirt","minecraft:grass"],
+    "biome": ["Bamboo Forest"],
+    "maxcount": 4,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:darkling",
+    "biome": ["Mangrove","Bayou","Overgrown Cliffs"],
+    "maxcount": 10,
+    "minheight": 65,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:aglebemu",
+    "block": ["biomesoplenty:log","biomesoplenty:mud"],
+    "biome": ["Mangrove"],
+    "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 110,
+    "mob": "lycanitesmobs:roa",
+    "biome": ["Kelp Forest"],
+    "maxcount": 4,
+    "onjoin": true,
+    "result": "allow"
+  },
+  // ** PLUTO **
+  // ***********
+  {
+    "dimension": ["1"],
+    "mob": "srparasites:sim_enderman",
+    "block": ["minecraft:end_stone"],
+    "maxcount": 10,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": ["1"],
+    "mob": "srparasites:sim_enderman",
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+    "dimension": 1,
+    "mob": "lycanitesmobs:spectre",
+    "block": ["minecraft:end_stone"],
+    "maxcount": 6,
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
+    "dimension": 1,
+    "mob": "lycanitesmobs:epion",
+    "block": ["tconstruct:slime_dirt","tconstruct:slime_grass","erebus:wasp_nest"],
+    "maxcount": 6,
+    "perchunk": true,
+    "onjoin": true,
+    "result": "allow"
+  },
+   // *** SRParasites deny on Ryusta - Underground
+  {
+    "mod": "srparasites",
+    "dimension": ["66"],
     "onjoin": true,
     "result": "deny"
   },
@@ -737,7 +1028,7 @@
   // This needs to be at the bottom to allow specific spawns.
   {
     "mod": "lycanitesmobs",
-    "dimension": ["0","17","-127","-1","1","110","111","112","4500","66"],
+    "dimension": ["0","17","-127","-1","1","110","111","112","-500","4500","66"],
     "onjoin": true,
     "result": "deny"
   }

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKhalk",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKhalk",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -34,11 +34,11 @@
   "width": 4.5,
   "height": 3.5,
   "experience": 15,
-  "health": 40,
+  "health": 80,
   "defense": 5,
   "armor": 0,
   "speed": 20,
-  "damage": 4,
+  "damage": 6,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -96,8 +96,8 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1,
+  "sizeScale": 1.2,
+  "hitboxScale": 1.2,
   "flags": [
     {
       "name": "lavaDeath",

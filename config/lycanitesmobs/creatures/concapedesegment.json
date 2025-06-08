@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityConcapedeSegment",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelConcapedeSegment",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": false,
@@ -35,9 +35,9 @@
   "width": 0.9,
   "height": 0.9,
   "experience": 5,
-  "health": 5,
+  "health": 20,
   "defense": 0,
-  "armor": 0,
+  "armor": 4,
   "speed": 30,
   "damage": 1,
   "attackSpeed": 1,
@@ -45,7 +45,7 @@
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
+  "sight": 18,
   "knockbackResistance": 0,
   "bagSize": 5,
   "eggBackColor": "#000022",
@@ -71,7 +71,7 @@
   "diets": [
     "frugivore"
   ],
-  "peaceful": true,
+  "peaceful": false,
   "farmable": false,
   "summonable": false,
   "tameable": false,
@@ -93,6 +93,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.5,
+  "hitboxScale": 1.5
 }

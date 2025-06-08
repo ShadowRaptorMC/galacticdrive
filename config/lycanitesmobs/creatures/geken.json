@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGeken",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGeken",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -39,17 +39,17 @@
   "width": 0.6,
   "height": 1.9,
   "experience": 5,
-  "health": 20,
+  "health": 40,
   "defense": 0,
-  "armor": 0,
-  "speed": 24,
-  "damage": 2,
+  "armor": 2,
+  "speed": 34,
+  "damage": 4,
   "attackSpeed": 2,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
-  "sight": 24,
+  "sight": 32,
   "knockbackResistance": 0,
   "bagSize": 5,
   "eggBackColor": "#00AA00",
@@ -77,7 +77,7 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "summonCost": 2,
@@ -90,6 +90,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 1.1,
+  "hitboxScale": 1.1
 }

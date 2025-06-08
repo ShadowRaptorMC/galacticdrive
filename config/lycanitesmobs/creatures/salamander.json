@@ -7,7 +7,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySalamander",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSalamander",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -35,7 +35,7 @@
   "width": 2.5,
   "height": 0.9,
   "experience": 5,
-  "health": 15,
+  "health": 25,
   "defense": 1,
   "armor": 0,
   "speed": 22,
@@ -77,8 +77,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
@@ -101,6 +101,6 @@
       "chance": 0.5
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.8,
+  "hitboxScale": 0.8
 }

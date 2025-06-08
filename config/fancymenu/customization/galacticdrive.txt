@@ -1,0 +1,255 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/menu/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = Server List
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 172
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = Settings
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 1
+  action = movebutton
+  y = 172
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = Quit
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = Run and hide
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 103
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 202
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = Only use the TOPOGRAPHY world type!
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -26
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 51
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = Mod List
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 220
+  action = deep_customization_element:title_screen_forge_top
+  actionid = b76b9953-bf6d-4b51-9fc0-cc67d6aa04611744642993200
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 148
+  action = deep_customization_element:title_screen_branding
+  actionid = 369dac4a-8e77-4508-ae8b-c9ebbb864af31744642993280
+  y = 652
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 1051
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 91e5d584-15b5-4739-9197-e6d37cfe2f131744642993281
+  y = 674
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 743
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5ef1f795-4156-45bb-9623-d4b12fbe517e1744642993281
+  y = 273
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 503
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 3b25cd78-a079-4fbf-88fb-7c6c96d816771744642993282
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = mid-centered
+  splash_color = #FFB833
+  hidden = false
+  x = 273
+  width = 60
+  splash_rotation = 20
+  action = deep_customization_element:title_screen_splash
+  actionid = 7efeb0b4-538d-48df-a355-48747d234c551744642993283
+  y = -250
+  splash_file_path = resources/text/splashes.txt
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  hoverlabel = Useful info!
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/ShadowRaptorMC/galacticdrive/wiki%btnaction_splitter_fm%
+  x = -102
+  width = 72
+  action = addbutton
+  actionid = 94d82d22-0f54-4590-af3b-e3ef5ba496091744643167392
+  y = 149
+  label = Wiki
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  hoverlabel = Report bugs!
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/ShadowRaptorMC/galacticdrive/issues%btnaction_splitter_fm%
+  x = 28
+  width = 71
+  action = addbutton
+  actionid = 4a0d870f-3e11-477e-9d0f-b35bea8369531744643199954
+  y = 149
+  label = Issues
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver;gd.shadowraptor.net%btnaction_splitter_fm%
+  x = -87
+  width = 166
+  action = addbutton
+  actionid = 1da27dab-ed77-465e-9cad-2e2de2d410e71744644484917
+  y = 43
+  description = Join ShadowRaptor Network's official Galactic Drive server!
+  label = Join Official Server
+  height = 20
+}
+

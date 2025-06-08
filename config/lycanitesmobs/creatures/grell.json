@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrell",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrell",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -37,13 +37,13 @@
   "width": 2.5,
   "height": 2.5,
   "experience": 10,
-  "health": 20,
+  "health": 40,
   "defense": 1,
   "armor": 0,
   "speed": 24,
-  "damage": 3,
+  "damage": 4,
   "attackSpeed": 1,
-  "rangedSpeed": 1,
+  "rangedSpeed": 1.5,
   "effectDuration": 5,
   "effectAmplifier": 0,
   "pierce": 1,
@@ -78,8 +78,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 2,
   "dungeonLevel": 3,
   "drops": [
@@ -96,6 +96,6 @@
       "chance": 1
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.8,
+  "hitboxScale": 0.8
 }

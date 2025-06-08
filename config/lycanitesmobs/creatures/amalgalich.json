@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAmalgalich",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAmalgalich",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -32,7 +32,7 @@
   "width": 18.0,
   "height": 24.0,
   "experience": 10000,
-  "health": 4000,
+  "health": 2000,
   "defense": 2,
   "armor": 0,
   "speed": 32,
@@ -47,7 +47,7 @@
   "bagSize": 5,
   "eggBackColor": "#340101",
   "eggForeColor": "#960000",
-  "boss": true,
+  "boss": false,
   "subspecies": [
     {
       "index": 0,
@@ -175,6 +175,6 @@
       "bonusAmount": false
     }
   ],
-  "sizeScale": 1,
-  "hitboxScale": 1
+  "sizeScale": 0.8,
+  "hitboxScale": 0.8
 }

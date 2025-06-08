@@ -7,7 +7,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDarkling",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDarkling",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -45,7 +45,7 @@
   "effectDuration": 5,
   "effectAmplifier": -1,
   "pierce": 1,
-  "sight": 24,
+  "sight": 38,
   "knockbackResistance": 0,
   "bagSize": 5,
   "eggBackColor": "#10191a",
@@ -72,10 +72,10 @@
     "carnivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
-  "perchable": true,
+  "perchable": false,
   "summonCost": 2,
   "dungeonLevel": 1,
   "drops": [

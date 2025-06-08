@@ -18,7 +18,7 @@
 						"weight": 10
 					}
 				],
-				"material": "thebetweenlands:betweenstone",
+				"material": "minecraft:stone",
 				"cluster-size": 24
 			},
 			"cluster-count": 1,
@@ -30,7 +30,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					20
+					4500
 				]
 			}
 		},
