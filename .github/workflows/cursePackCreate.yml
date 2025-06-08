@@ -15,7 +15,6 @@ jobs:
     - uses: actions/checkout@v3
       with:
         repository: ShadowRaptorMC/galacticdrive
-        ref: develop
 
     # Create directories for the Curse file structure, and move from repository locations to created directories.
 
@@ -84,7 +83,6 @@ jobs:
     - uses: actions/checkout@v3
       with:
         repository: ShadowRaptorMC/galacticdrive
-        ref: develop
 
     # Root directory
     - name: Create root directory
